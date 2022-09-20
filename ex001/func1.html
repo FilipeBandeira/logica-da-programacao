@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Função Simples</title>
+</head>
+<body>
+    <h1>Introdução a Função</h1>
+
+    <script>
+
+        function pulaLinha(){
+            document.write("<br>");
+            document.write("<br>");
+        }
+
+        function mostra(nome) {
+            document.write(nome);
+            pulaLinha();
+        }
+    
+
+        var ano = 2022;
+
+        mostra("Filipe tem " + (ano - 1992) + " anos");
+        
+        mostra("Maria tem " + (ano - 2021) + " anos");
+        
+        ano = 2023;
+
+        mostra("Suelda terá em 2023 " + (ano - 1969) + " anos");
+    
+    </script>
+</body>
+</html>
