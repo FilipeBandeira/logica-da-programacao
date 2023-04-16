@@ -1,2 +1,2 @@
-# logica-da-programacao
+# Curso de Logica de Programacao
  Lógica da Programação - Alura 
